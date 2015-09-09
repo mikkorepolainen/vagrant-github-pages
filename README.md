@@ -18,8 +18,8 @@ Now, `cd` into the directory and start up the Vagrant vm...
 cd <your-repo-path>
 vagrant up
 ```
-When asked to "Enter passphrase for key xxx" press enter.
-The default password for a vagrant vm is "vagrant".
+When asked to `Enter passphrase for key xxx"`press enter.
+The default password for a vagrant vm is `vagrant`.
 
 Building the vm takes a while, so I recommend suspending the vm instead of destroying it when done with it:
 ```
@@ -52,10 +52,10 @@ Run the jekyll server
 jekyll serve [--watch] [--force_polling] -P 8124
 ```
 The Vagrant vm is configured to forward port 8124 by default.
-Navigate to localhost:8124 on your host box to view the site through the server.
+Navigate to `localhost:8124` on your host box to view the site through the server.
 
-Use the --watch option for either command to automatically build the site when files change in the source directory.
-Try adding the --force_polling option if the --watch option has no effect by itself (I need to use this switch when using windows 7 as the host).
+Use the `--watch` option for either command to automatically build the site when files change in the source directory.
+Try adding the `--force_polling` option if the --watch option has no effect by itself (I need to use this switch when using windows 7 as the host).
 
 Note on SSH-forwarding
 ---------------------
