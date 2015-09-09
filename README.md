@@ -8,12 +8,10 @@ Initializing the vm
 
 First, make sure you've installed [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) and [VirtualBox](https://www.virtualbox.org/).
 
-Next, download the Vagrantfile and place it somewhere convenient.
+Next, download the [Vagrantfile](https://raw.githubusercontent.com/mikkorepolainen/vagrant-github-pages/master/Vagrantfile) and place it somewhere convenient.
 These instructions assume that you have placed it in the root of your github-pages repository.
-(The directory where the Vagrantfile is located is synced with the /vagrant directory on the vm.)
-```
-https://raw.githubusercontent.com/mikkorepolainen/vagrant-github-pages/master/Vagrantfile
-```
+(The directory where the Vagrantfile is located is synced with the /vagrant directory on the vm by default.)  
+
 
 Now, `cd` into the directory and start up the Vagrant vm...
 ```
