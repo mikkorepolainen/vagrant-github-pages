@@ -10,7 +10,7 @@ First, make sure you've installed [Vagrant](http://docs.vagrantup.com/v2/getting
 
 Next, download the [Vagrantfile](https://raw.githubusercontent.com/mikkorepolainen/vagrant-github-pages/master/Vagrantfile) and place it somewhere convenient.
 These instructions assume that you have placed it in the root of your github-pages repository.
-(The directory where the Vagrantfile is located is synced with the /vagrant directory on the vm by default.)  
+(The directory where the Vagrantfile is located is synced with the `/vagrant` directory on the vm by default.)  
 
 
 Now, `cd` into the directory and start up the Vagrant vm...
@@ -41,13 +41,13 @@ cd /vagrant
 ls
 ```
 
-Build the site
+To build the site:
 ```
 jekyll build [--watch] [--force_polling]
 ```
 You can browse the generated site on the host system in the _site directory.
 
-Run the jekyll server
+To run the jekyll server:
 ```
 jekyll serve [--watch] [--force_polling] -P 8124
 ```
