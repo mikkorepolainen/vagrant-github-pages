@@ -3,7 +3,7 @@ Vagrant file for a GitHub Pages-compatible Jekyll environment
 
 Simple Vagrant file to build a GitHub Pages-compatible Jekyll environment. Uses the "official" github-pages gem. Use this environment to build and test your GitHub Pages-based Jekyll sites without polluting your host box.
 
-Initializing the vm
+Initializing the VM
 -------------------
 
 First, make sure you've installed [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) and [VirtualBox](https://www.virtualbox.org/).
@@ -18,7 +18,7 @@ Now, `cd` into the directory and start up the Vagrant vm...
 cd <your-repo-path>
 vagrant up
 ```
-When asked to `Enter passphrase for key xxx"`press enter.
+When asked to `Enter passphrase for key xxx` press enter.
 The default password for a vagrant vm is `vagrant`.
 
 Building the vm takes a while, so I recommend suspending the vm instead of destroying it when done with it:
