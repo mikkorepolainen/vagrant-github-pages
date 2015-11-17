@@ -18,10 +18,8 @@ Now, `cd` into the directory and start up the Vagrant vm...
 cd <your-repo-path>
 vagrant up
 ```
-When asked to `Enter passphrase for key xxx` press enter.
-The default password for a vagrant vm is `vagrant`.
 
-Building the vm takes a while, so I recommend suspending the vm instead of destroying it when done with it:
+Building the vm takes a while, so I recommend suspending the vm instead of destroying it if you plan to use it frequently:
 ```
 vagrant suspend
 ```
@@ -40,6 +38,9 @@ vagrant ssh
 cd /vagrant
 ls
 ```
+
+When asked to `Enter passphrase for key xxx` press enter.
+The default password for a vagrant vm is `vagrant`.
 
 To build the site:
 ```
